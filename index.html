@@ -12,7 +12,7 @@
 <body>
 
     <section class="container">
-        <form>
+        <form onsubmit="gestionDuFormulaire(event)">
             <div class="row">
                 <div class="mb-3 col">
                     <label for="firstNumber" class="form-label">Premier nombre</label>
@@ -27,8 +27,8 @@
             <div class="mb-3 col">
                 <select class="form-select" name="operation" id="operation">
                     <option value="">Sélectionner</option>
-                    <option value="">Addition</option>
-                    <option value="">Produit</option>
+                    <option value="1">Addition</option>
+                    <option value="2">Produit</option>
                 </select>
             </div>
             <div class="d-grid gap-2 mb-3">
